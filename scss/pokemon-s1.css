@@ -1,0 +1,1146 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pokemon-s1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#bulbasaur {
+  width: 200px;
+  height: 200px;
+  background-color: #78d9ad;
+  position: relative;
+}
+
+#bulbasaur .bulbasaur-seed {
+  width: 65%;
+  height: 10%;
+  background-color: #75b87e;
+  margin: auto;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 5% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 5% 100%);
+}
+
+#bulbasaur .bulbasaur-seed .bulbasaur-seed-1 {
+  width: 12.5%;
+  height: 100%;
+  background-color: #639868;
+  margin: auto;
+}
+
+#bulbasaur .bulbasaur-spot {
+  width: 20%;
+  height: 10%;
+  background-color: #3c8a5d;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+}
+
+#bulbasaur .bulbasaur-spot:before {
+  content: "";
+  display: block;
+  width: 33%;
+  height: 70%;
+  background-color: #3c8a5d;
+  position: absolute;
+  left: -66%;
+  top: 85%;
+}
+
+#bulbasaur .bulbasaur-spot:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  background-color: #3c8a5d;
+  position: absolute;
+  left: -10%;
+  top: 200%;
+}
+
+#bulbasaur .bulbasaur-eyes {
+  width: 85%;
+  height: 50%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 8%;
+}
+
+#bulbasaur .bulbasaur-eyes .bulbasaur-eye-l {
+  width: 23%;
+  height: 50%;
+  background-color: #fff;
+  padding: 5% 0 0 10%;
+  -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+}
+
+#bulbasaur .bulbasaur-eyes .bulbasaur-eye-l .bulbasaur-eye-l-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #bd414f;
+}
+
+#bulbasaur .bulbasaur-eyes .bulbasaur-eye-l .bulbasaur-eye-l-1 .bulbasaur-eye-l-2 {
+  width: 100%;
+  height: 20%;
+  background-color: #bd414f;
+}
+
+#bulbasaur .bulbasaur-eyes .bulbasaur-eye-l .bulbasaur-eye-l-1 .bulbasaur-eye-l-3 {
+  width: 30%;
+  height: 60%;
+  background-color: #fff;
+  margin: auto;
+}
+
+#bulbasaur .bulbasaur-eyes .bulbasaur-eye-l .bulbasaur-eye-l-1 .bulbasaur-eye-l-4 {
+  width: 100%;
+  height: 20%;
+  background-color: #d6616d;
+}
+
+#bulbasaur .bulbasaur-eyes .bulbasaur-eye-r {
+  width: 23%;
+  height: 50%;
+  background-color: #fff;
+  padding: 5% 10% 0 0;
+  -webkit-clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#bulbasaur .bulbasaur-eyes .bulbasaur-eye-r .bulbasaur-eye-r-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #bd414f;
+}
+
+#bulbasaur .bulbasaur-eyes .bulbasaur-eye-r .bulbasaur-eye-r-1 .bulbasaur-eye-r-2 {
+  width: 100%;
+  height: 20%;
+  background-color: #bd414f;
+}
+
+#bulbasaur .bulbasaur-eyes .bulbasaur-eye-r .bulbasaur-eye-r-1 .bulbasaur-eye-r-3 {
+  width: 30%;
+  height: 60%;
+  background-color: #fff;
+  margin: auto;
+}
+
+#bulbasaur .bulbasaur-eyes .bulbasaur-eye-r .bulbasaur-eye-r-1 .bulbasaur-eye-r-4 {
+  width: 100%;
+  height: 20%;
+  background-color: #d6616d;
+}
+
+#bulbasaur .bulbasaur-nose {
+  width: 10%;
+  height: 4%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #5aaa84), color-stop(15%, transparent), color-stop(85%, transparent), color-stop(85%, #5aaa84));
+  background: linear-gradient(to right, #5aaa84 15%, transparent 15%, transparent 85%, #5aaa84 85%);
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#bulbasaur .bulbasaur-mouth {
+  width: 75%;
+  height: 15%;
+  background-color: #944368;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#bulbasaur .bulbasaur-mouth .bulbasaur-teeth {
+  width: 80%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#bulbasaur .bulbasaur-mouth .bulbasaur-teeth .bulbasaur-tooth-l {
+  width: 13%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#bulbasaur .bulbasaur-mouth .bulbasaur-teeth .bulbasaur-tooth-r {
+  width: 13%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#bulbasaur .bulbasaur-mouth .bulbasaur-tongue {
+  width: 70%;
+  height: 40%;
+  background-color: #ce779f;
+}
+
+#ivysaur {
+  width: 200px;
+  height: 200px;
+  background-color: #81bbc6;
+  position: relative;
+}
+
+#ivysaur .ivysaur-grass {
+  width: 80%;
+  height: 12%;
+  background-color: #d87289;
+  margin: auto;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 15% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 15% 100%);
+}
+
+#ivysaur .ivysaur-grass .ivysaur-grass-1 {
+  width: 60%;
+  height: 100%;
+  background-color: #6ba470;
+  margin: auto;
+}
+
+#ivysaur .ivysaur-spot {
+  margin-bottom: 25%;
+}
+
+#ivysaur .ivysaur-spot:before {
+  content: "";
+  display: block;
+  width: 32%;
+  height: 20%;
+  position: absolute;
+  left: 40%;
+  top: 12%;
+  background-color: #317d94;
+  -webkit-clip-path: polygon(0 0, 100% 0, 70% 100%, 30% 100%);
+          clip-path: polygon(0 0, 100% 0, 70% 100%, 30% 100%);
+}
+
+#ivysaur .ivysaur-spot:after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  background-color: #317d94;
+  -webkit-clip-path: polygon(0 0, 100% 0, 70% 100%, 30% 100%);
+          clip-path: polygon(0 0, 100% 0, 70% 100%, 30% 100%);
+}
+
+#ivysaur .ivysaur-eyes {
+  width: 90%;
+  height: 21%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10%;
+}
+
+#ivysaur .ivysaur-eyes .ivysaur-eye-l {
+  width: 25%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);
+  padding: 0 0 0 10%;
+}
+
+#ivysaur .ivysaur-eyes .ivysaur-eye-l .ivysaur-eye-l-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #c64552;
+  position: relative;
+}
+
+#ivysaur .ivysaur-eyes .ivysaur-eye-l .ivysaur-eye-l-1 .ivysaur-eye-l-2 {
+  width: 100%;
+  height: 70%;
+  background-color: #c64552;
+}
+
+#ivysaur .ivysaur-eyes .ivysaur-eye-l .ivysaur-eye-l-1 .ivysaur-eye-l-3 {
+  width: 30%;
+  height: 80%;
+  background-color: #000000;
+  position: absolute;
+  left: 30%;
+  top: 0%;
+}
+
+#ivysaur .ivysaur-eyes .ivysaur-eye-l .ivysaur-eye-l-1 .ivysaur-eye-l-4 {
+  width: 100%;
+  height: 30%;
+  background-color: #e14e5a;
+}
+
+#ivysaur .ivysaur-eyes .ivysaur-eye-r {
+  width: 25%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+  padding: 0 10% 0 0;
+}
+
+#ivysaur .ivysaur-eyes .ivysaur-eye-r .ivysaur-eye-r-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #c64552;
+  position: relative;
+}
+
+#ivysaur .ivysaur-eyes .ivysaur-eye-r .ivysaur-eye-r-1 .ivysaur-eye-r-2 {
+  width: 100%;
+  height: 70%;
+  background-color: #c64552;
+}
+
+#ivysaur .ivysaur-eyes .ivysaur-eye-r .ivysaur-eye-r-1 .ivysaur-eye-r-3 {
+  width: 30%;
+  height: 80%;
+  background-color: #000000;
+  position: absolute;
+  right: 30%;
+  top: 0%;
+}
+
+#ivysaur .ivysaur-eyes .ivysaur-eye-r .ivysaur-eye-r-1 .ivysaur-eye-r-4 {
+  width: 100%;
+  height: 30%;
+  background-color: #e14e5a;
+}
+
+#ivysaur .ivysaur-nose {
+  width: 10%;
+  height: 5%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #6b9aa5), color-stop(20%, transparent), color-stop(80%, transparent), color-stop(80%, #6b9aa5));
+  background: linear-gradient(to right, #6b9aa5 20%, transparent 20%, transparent 80%, #6b9aa5 80%);
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  z-index: 2;
+}
+
+#ivysaur .ivysaur-mouth {
+  width: 75%;
+  height: 15%;
+  background-color: #944368;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-clip-path: polygon(0 0, 30% 0, 33% 20%, 66% 20%, 70% 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 30% 0, 33% 20%, 66% 20%, 70% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#ivysaur .ivysaur-mouth .ivysaur-teeth {
+  width: 80%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#ivysaur .ivysaur-mouth .ivysaur-teeth .ivysaur-tooth-l {
+  width: 15%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#ivysaur .ivysaur-mouth .ivysaur-teeth .ivysaur-tooth-r {
+  width: 15%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#ivysaur .ivysaur-mouth .ivysaur-tongue {
+  width: 70%;
+  height: 40%;
+  background-color: #ce779f;
+}
+
+#venusaur {
+  width: 200px;
+  height: 200px;
+  background-color: #8cc7c3;
+  position: relative;
+}
+
+#venusaur .venusaur-flower {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
+#venusaur .venusaur-flower .venusaur-petal {
+  width: 100%;
+  height: 50%;
+  background-color: #e1808e;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 90% 60%, 88% 65%, 85% 100%, 15% 100%, 12% 65%, 10% 60%, 0 60%);
+          clip-path: polygon(0 0, 100% 0, 100% 60%, 90% 60%, 88% 65%, 85% 100%, 15% 100%, 12% 65%, 10% 60%, 0 60%);
+}
+
+#venusaur .venusaur-flower .venusaur-tree {
+  width: 40%;
+  height: 45%;
+  margin: auto;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #8a7150), color-stop(30%, #796249), color-stop(70%, #796249), color-stop(70%, #8a7150));
+  background: linear-gradient(to top, #8a7150 30%, #796249 30%, #796249 70%, #8a7150 70%);
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#venusaur .venusaur-flower .venusaur-leaf {
+  width: 70%;
+  height: 55%;
+  background-color: #81a884;
+  margin: auto;
+  -webkit-clip-path: polygon(0 10%, 10% 10%, 10% 0, 90% 0, 90% 10%, 100% 10%, 97% 35%, 85% 35%, 85% 85%, 80% 100%, 20% 100%, 15% 85%, 15% 35%, 3% 35%);
+          clip-path: polygon(0 10%, 10% 10%, 10% 0, 90% 0, 90% 10%, 100% 10%, 97% 35%, 85% 35%, 85% 85%, 80% 100%, 20% 100%, 15% 85%, 15% 35%, 3% 35%);
+  position: absolute;
+  left: 50%;
+  top: 44%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#venusaur .venusaur-flower .venusaur-leaf .venusaur-stem {
+  width: 100%;
+  height: 100%;
+  background-color: #759a78;
+  margin: auto;
+  -webkit-clip-path: polygon(10% 0%, 90% 0%, 90% 10%, 52% 10%, 52% 80%, 48% 80%, 48% 10%, 10% 10%);
+          clip-path: polygon(10% 0%, 90% 0%, 90% 10%, 52% 10%, 52% 80%, 48% 80%, 48% 10%, 10% 10%);
+}
+
+#venusaur .venusaur-flower .venusaur-spot-1 {
+  width: 5%;
+  height: 10%;
+  background-color: #f4d3d3;
+  position: absolute;
+  left: 5%;
+  top: 0%;
+  z-index: 2;
+}
+
+#venusaur .venusaur-flower .venusaur-spot-2 {
+  width: 8%;
+  height: 16%;
+  background-color: #f4d3d3;
+  position: absolute;
+  left: 15%;
+  top: 10%;
+  z-index: 2;
+}
+
+#venusaur .venusaur-flower .venusaur-spot-3 {
+  width: 15%;
+  height: 23%;
+  background-color: #f4d3d3;
+  position: absolute;
+  left: 75%;
+  top: 0%;
+  z-index: 2;
+}
+
+#venusaur .venusaur-ears {
+  width: 100%;
+  height: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  top: 20%;
+}
+
+#venusaur .venusaur-ears .venusaur-ear-l {
+  width: 8%;
+  height: 100%;
+  background-color: #bd5f6d;
+  -webkit-clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 0 100%);
+}
+
+#venusaur .venusaur-ears .venusaur-ear-r {
+  width: 8%;
+  height: 100%;
+  background-color: #bd5f6d;
+  -webkit-clip-path: polygon(0 15%, 15% 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 15%, 15% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#venusaur .venusaur-eyes {
+  width: 90%;
+  height: 20%;
+  margin: auto;
+  margin-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#venusaur .venusaur-eyes .venusaur-eye-l {
+  width: 23%;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+#venusaur .venusaur-eyes .venusaur-eye-l .venusaur-eye-l-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #86c0bd;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 30%);
+          clip-path: polygon(0 0, 100% 0, 100% 75%, 0 30%);
+  position: absolute;
+}
+
+#venusaur .venusaur-eyes .venusaur-eye-l .venusaur-eye-l-2 {
+  width: 50%;
+  height: 80%;
+  background-color: #c65563;
+  margin: auto;
+}
+
+#venusaur .venusaur-eyes .venusaur-eye-l .venusaur-eye-l-2 .venusaur-eye-l-3 {
+  width: 40%;
+  height: 80%;
+  background-color: #fff;
+  margin: auto;
+}
+
+#venusaur .venusaur-eyes .venusaur-eye-l .venusaur-eye-l-2 .venusaur-eye-l-4 {
+  width: 80%;
+  height: 20%;
+  background-color: #db5e6d;
+}
+
+#venusaur .venusaur-eyes .venusaur-eye-r {
+  width: 23%;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+#venusaur .venusaur-eyes .venusaur-eye-r .venusaur-eye-r-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #86c0bd;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 30%, 0 75%);
+          clip-path: polygon(0 0, 100% 0, 100% 30%, 0 75%);
+  position: absolute;
+}
+
+#venusaur .venusaur-eyes .venusaur-eye-r .venusaur-eye-r-2 {
+  width: 50%;
+  height: 80%;
+  background-color: #c65563;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#venusaur .venusaur-eyes .venusaur-eye-r .venusaur-eye-r-2 .venusaur-eye-r-3 {
+  width: 40%;
+  height: 80%;
+  background-color: #fff;
+  margin: auto;
+}
+
+#venusaur .venusaur-eyes .venusaur-eye-r .venusaur-eye-r-2 .venusaur-eye-r-4 {
+  width: 80%;
+  height: 20%;
+  background-color: #db5e6d;
+}
+
+#venusaur .venusaur-nose {
+  width: 13%;
+  height: 3%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #6b9a99), color-stop(20%, transparent), color-stop(80%, transparent), color-stop(80%, #6b9a99));
+  background: linear-gradient(to right, #6b9a99 20%, transparent 20%, transparent 80%, #6b9a99 80%);
+  position: absolute;
+  left: 50%;
+  top: 73%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#venusaur .venusaur-mouth {
+  width: 100%;
+  height: 15%;
+  background-color: #864244;
+  -webkit-clip-path: polygon(0 0, 35% 0, 40% 20%, 60% 20%, 65% 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 35% 0, 40% 20%, 60% 20%, 65% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#venusaur .venusaur-mouth .venusaur-teeth-u {
+  width: 90%;
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#venusaur .venusaur-mouth .venusaur-teeth-u .venusaur-tooth-ul {
+  width: 10%;
+  height: 80%;
+  background-color: #fff;
+}
+
+#venusaur .venusaur-mouth .venusaur-teeth-u .venusaur-tooth-ur {
+  width: 10%;
+  height: 80%;
+  background-color: #fff;
+}
+
+#venusaur .venusaur-mouth .venusaur-tongue {
+  width: 100%;
+  height: 40%;
+  background-color: #9c7b94;
+}
+
+#venusaur .venusaur-mouth .venusaur-tongue .venusaur-teeth-d {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#venusaur .venusaur-mouth .venusaur-tongue .venusaur-teeth-d .venusaur-tooth-dl1 {
+  width: 8%;
+  height: 80%;
+  background-color: #fff;
+}
+
+#venusaur .venusaur-mouth .venusaur-tongue .venusaur-teeth-d .venusaur-tooth-dl2 {
+  width: 8%;
+  height: 80%;
+  background-color: #fff;
+  margin-right: 25%;
+}
+
+#venusaur .venusaur-mouth .venusaur-tongue .venusaur-teeth-d .venusaur-tooth-dr1 {
+  width: 8%;
+  height: 80%;
+  background-color: #fff;
+  margin-left: 25%;
+}
+
+#venusaur .venusaur-mouth .venusaur-tongue .venusaur-teeth-d .venusaur-tooth-dr2 {
+  width: 8%;
+  height: 80%;
+  background-color: #fff;
+}
+
+#charmander {
+  width: 200px;
+  height: 200px;
+  background-color: #efaf84;
+  position: relative;
+}
+
+#charmander .charmander-eyes {
+  width: 80%;
+  height: 35%;
+  margin: auto;
+  margin-top: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#charmander .charmander-eyes .charmander-eye-l {
+  width: 25%;
+  height: 100%;
+  background-color: #1e2c31;
+  position: relative;
+}
+
+#charmander .charmander-eyes .charmander-eye-l .charmander-eye-l-1 {
+  width: 40%;
+  height: 90%;
+  background-color: #182226;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmander .charmander-eyes .charmander-eye-l .charmander-eye-l-2 {
+  width: 100%;
+  height: 25%;
+  background-color: #396d7e;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmander .charmander-eyes .charmander-eye-l .charmander-eye-l-3 {
+  width: 40%;
+  height: 40%;
+  background-color: #fff;
+  z-index: 3;
+  position: absolute;
+  left: 65%;
+  top: 5%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmander .charmander-eyes .charmander-eye-r {
+  width: 25%;
+  height: 100%;
+  background-color: #1e2c31;
+  position: relative;
+}
+
+#charmander .charmander-eyes .charmander-eye-r .charmander-eye-r-1 {
+  width: 40%;
+  height: 90%;
+  background-color: #182226;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmander .charmander-eyes .charmander-eye-r .charmander-eye-r-2 {
+  width: 100%;
+  height: 25%;
+  background-color: #396d7e;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmander .charmander-eyes .charmander-eye-r .charmander-eye-r-3 {
+  width: 40%;
+  height: 40%;
+  background-color: #fff;
+  z-index: 3;
+  position: absolute;
+  left: 35%;
+  top: 5%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmander .charmander-nose {
+  width: 20%;
+  height: 8%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #d39873), color-stop(20%, transparent), color-stop(80%, transparent), color-stop(80%, #d39873));
+  background: linear-gradient(to right, #d39873 20%, transparent 20%, transparent 80%, #d39873 80%);
+  position: absolute;
+  left: 50%;
+  top: 53%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmander .charmander-mouth {
+  width: 75%;
+  height: 25%;
+  margin: auto;
+  margin-top: 15%;
+  background-color: #a26f8e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#charmander .charmander-mouth .charmander-teeth-u {
+  width: 80%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#charmander .charmander-mouth .charmander-teeth-u .charmander-tooth-ul {
+  width: 13%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#charmander .charmander-mouth .charmander-teeth-u .charmander-tooth-ur {
+  width: 13%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#charmander .charmander-mouth .charmander-tongue {
+  width: 70%;
+  height: 60%;
+  background-color: #cb98c0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#charmander .charmander-mouth .charmander-tongue .charmander-teeth-d {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#charmander .charmander-mouth .charmander-tongue .charmander-teeth-d .charmander-tooth-dl {
+  width: 15%;
+  height: 45%;
+  background-color: #fff;
+}
+
+#charmander .charmander-mouth .charmander-tongue .charmander-teeth-d .charmander-tooth-dr {
+  width: 15%;
+  height: 45%;
+  background-color: #fff;
+}
+
+#charmeleon {
+  width: 200px;
+  height: 200px;
+  background-color: #ef8b78;
+  position: relative;
+}
+
+#charmeleon .charmeleon-horn {
+  width: 100%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#charmeleon .charmeleon-horn .charmeleon-horn-l {
+  width: 35%;
+  height: 100%;
+  background-color: #aa442f;
+  -webkit-clip-path: polygon(0 0, 100% 0, 95% 90%, 80% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 95% 90%, 80% 100%, 0 100%);
+}
+
+#charmeleon .charmeleon-horn .charmeleon-horn-r {
+  width: 35%;
+  height: 100%;
+  background-color: #aa442f;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%, 5% 90%, 0 0);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%, 5% 90%, 0 0);
+}
+
+#charmeleon .charmeleon-brow {
+  width: 15%;
+  height: 12%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #d67d6b), color-stop(10%, transparent), color-stop(90%, transparent), color-stop(90%, #d67d6b));
+  background: linear-gradient(to right, #d67d6b 10%, transparent 10%, transparent 90%, #d67d6b 90%);
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmeleon .charmeleon-eyes {
+  width: 80%;
+  height: 30%;
+  margin: auto;
+  margin-top: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#charmeleon .charmeleon-eyes .charmeleon-eye-l {
+  width: 25%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-clip-path: polygon(0 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 100%, 0 100%);
+  padding-left: 10%;
+  position: relative;
+}
+
+#charmeleon .charmeleon-eyes .charmeleon-eye-l .charmeleon-eye-l-1 {
+  width: 100%;
+  height: 80%;
+  background-color: #3c5668;
+}
+
+#charmeleon .charmeleon-eyes .charmeleon-eye-l .charmeleon-eye-l-2 {
+  width: 100%;
+  height: 20%;
+  background-color: #47657b;
+}
+
+#charmeleon .charmeleon-eyes .charmeleon-eye-l .charmeleon-eye-l-3 {
+  width: 25%;
+  height: 60%;
+  background-color: #000000;
+  position: absolute;
+  left: 60%;
+  top: 25%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmeleon .charmeleon-eyes .charmeleon-eye-l .charmeleon-eye-l-4 {
+  width: 15%;
+  height: 50%;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmeleon .charmeleon-eyes .charmeleon-eye-r {
+  width: 25%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%);
+          clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  padding-right: 10%;
+  position: relative;
+}
+
+#charmeleon .charmeleon-eyes .charmeleon-eye-r .charmeleon-eye-r-1 {
+  width: 100%;
+  height: 80%;
+  background-color: #3c5668;
+}
+
+#charmeleon .charmeleon-eyes .charmeleon-eye-r .charmeleon-eye-r-2 {
+  width: 100%;
+  height: 20%;
+  background-color: #47657b;
+}
+
+#charmeleon .charmeleon-eyes .charmeleon-eye-r .charmeleon-eye-r-3 {
+  width: 25%;
+  height: 60%;
+  background-color: #000000;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmeleon .charmeleon-eyes .charmeleon-eye-r .charmeleon-eye-r-4 {
+  width: 15%;
+  height: 50%;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmeleon .charmeleon-nose {
+  width: 10%;
+  height: 5%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #d67d6b), color-stop(20%, transparent), color-stop(80%, transparent), color-stop(80%, #d67d6b));
+  background: linear-gradient(to right, #d67d6b 20%, transparent 20%, transparent 80%, #d67d6b 80%);
+  position: absolute;
+  left: 50%;
+  top: 63%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#charmeleon .charmeleon-mouth {
+  width: 75%;
+  height: 23%;
+  background-color: #a26f8e;
+  margin: auto;
+  margin-top: 10%;
+  -webkit-clip-path: polygon(0 0, 36% 0, 40% 30%, 60% 30%, 64% 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 36% 0, 40% 30%, 60% 30%, 64% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#charmeleon .charmeleon-mouth .charmeleon-teeth-u {
+  width: 80%;
+  height: 30%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#charmeleon .charmeleon-mouth .charmeleon-teeth-u .charmeleon-tooth-ul {
+  width: 13%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#charmeleon .charmeleon-mouth .charmeleon-teeth-u .charmeleon-tooth-ur {
+  width: 13%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#charmeleon .charmeleon-mouth .charmeleon-tongue {
+  width: 75%;
+  height: 60%;
+  background-color: #cb98c0;
+  margin: auto;
+  margin-top: 5%;
+}
+
+#charmeleon .charmeleon-mouth .charmeleon-tongue .charmeleon-teeth-d {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#charmeleon .charmeleon-mouth .charmeleon-tongue .charmeleon-teeth-d .charmeleon-tooth-dl {
+  width: 15%;
+  height: 65%;
+  background-color: #fff;
+}
+
+#charmeleon .charmeleon-mouth .charmeleon-tongue .charmeleon-teeth-d .charmeleon-tooth-dr {
+  width: 15%;
+  height: 65%;
+  background-color: #fff;
+}
+/*# sourceMappingURL=pokemon-s1.css.map */
